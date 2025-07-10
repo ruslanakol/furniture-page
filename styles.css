@@ -188,9 +188,11 @@ figcaption {
     border-radius: 12px;
     height: 40px;
     color: #ECEBDE;
-    width: 150px;
+    width: 180px;
     padding: 10px 20px;
     margin-top: 20px;
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -267,18 +269,51 @@ h1 {
 
 
 /* footer */
-footer {
-    margin-top: 100px;
-    padding-top: 80px;
-    background-color: #54473F;
-    height: 400px;
-    display: inline-flex;
-    width: 100%;
-    padding-bottom: 0px;
-
+.footer {
+    background-color: #5d4b41;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'QuickSand', sans-serif;;
 }
-.google-map-widget {
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-right {
+    max-width: 45%;
+}
+
+.footer-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    font-size: 14px;
 }
 
 
