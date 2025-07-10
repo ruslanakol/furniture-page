@@ -123,6 +123,164 @@ header {
     top: 90%;
     height: 50px;
 }
+
+/* second container */
+.second-container {
+    padding-top: 80px;
+}
 p {
     font-family: 'QuickSand', sans-serif;
 }
+.second-p {
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.second-cont-images {
+    height: 400px;
+    display: inline-flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.second-container-images {
+    display: flex;
+    justify-content: space-around;
+}
+figcaption {
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: gray;
+}
+.second-container {
+    padding-bottom: 60px;
+}
+/* third container*/
+
+.third-container {
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.third-container-back {
+    height: 400px;
+    background-color: #ECEBDE;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.third-cont-image {
+    height: 450px;
+}
+.third-1p {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.quest-5 {
+    color: #54473F;
+}
+.third-button {
+    cursor: pointer;
+    background-color: #54473F;
+    border-radius: 12px;
+    height: 40px;
+    color: #ECEBDE;
+    width: 150px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+/* forth container */
+.forth-container {
+    height: 700px;
+    padding-left: 130px;
+    padding-top: 80px;
+}
+h1 {
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'QuickSand', sans-serif;
+    padding-bottom: 30px;
+}
+.first-question-line {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 700px;
+}
+.first-question-icon {
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+}
+.first-quest, .second-quest, .third-quest, .forth-quest {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.first-ans {
+    color: #7F8487;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px;
+    width: 80%;
+}
+.light-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1px;
+    width: 90%;
+    background-color: lightgray;
+}
+.quests {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.quests-1{
+    gap: 800px;
+}
+.quests-2{
+    gap: 907px;
+}
+.quests-3{
+    gap: 877px;
+}
+.quests-4{
+    gap: 759px;
+}
+.second-question-icon {
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* footer */
+footer {
+    margin-top: 100px;
+    padding-top: 80px;
+    background-color: #54473F;
+    height: 400px;
+    display: inline-flex;
+    width: 100%;
+    padding-bottom: 0px;
+
+}
+.google-map-widget {
+
+}
+
+
+
+
