@@ -143,6 +143,10 @@ p {
     gap: 50px;
     align-items: center;
     justify-content: space-around;
+    transition: transform 0.2s ease;
+}
+.second-cont-images:hover {
+    transform: scale(1.03);
 }
 .second-container-images {
     display: flex;
@@ -173,6 +177,10 @@ figcaption {
 }
 .third-cont-image {
     height: 450px;
+    transition: transform 0.2s ease;
+}
+.third-cont-image:hover {
+    transform: scale(1.03);
 }
 .third-1p {
     font-weight: 700;
