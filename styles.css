@@ -190,16 +190,24 @@ figcaption {
     color: #54473F;
 }
 .third-button {
-    cursor: pointer;
     background-color: #54473F;
+    color: #ECEBDE;
     border-radius: 12px;
     height: 40px;
-    color: #ECEBDE;
     width: 180px;
     padding: 10px 20px;
     margin-top: 20px;
     font-family: 'QuickSand', sans-serif;
     font-weight: 500;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.third-button:hover {
+    cursor: pointer;
+    background-color: #ECEBDE;
+    color: #54473F;
+    border: 2px solid #54473F;
 }
 
 
@@ -322,7 +330,13 @@ h1 {
     padding-top: 15px;
     font-size: 14px;
 }
-
-
+.a-footer {
+    color: #fff;
+    text-decoration: none;
+}
+.a-footer:hover {
+    color: #2C1B14;
+    text-decoration: none;
+}
 
 
