@@ -44,45 +44,59 @@
 /* icons */
 #house-icon {
     position: absolute;
-    height: 40px;
+    height: 70px;
     left: 4%;
-    top: 12px;
+    top: -3%;
+    z-index: 5;
 }
-#menu-icon {
+.icons-right {
     position: absolute;
     height: 30px;
-    right: 4%;
-    top: 19px;
+    right: 3%;
+    top: 30%;
     cursor: pointer;
+    z-index: 4;
+    gap: 50px 10px;
 }
-
+#shopping-icon, #search-icon, #menu-icon {
+    padding-left: 20px;
+}
 /* header */
 header {
     width: 100%;
-    height: 70px;
+    height: 11%;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #2C1B14;
-    opacity: 0.8;
-    color: white;
+    background-color: white;
+    color: #2C1B14;
     position: fixed;
-    z-index: 4;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'QuickSand', sans-serif;
     font-weight: 500;
+    box-shadow: 14px 19px 21px -2px rgba(142,127,127,0.39);
+    -webkit-box-shadow: 14px 19px 21px -2px rgba(142,127,127,0.39);
+    -moz-box-shadow: 14px 19px 21px -2px rgba(142,127,127,0.39);
 }
 .navi {
     display: flex;
     list-style: none;
     gap: 40px;
-
+    font-size: 110%;
 }
 .navi li {
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
+.navi li:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
 
 /* main */
 .first-container {
@@ -90,39 +104,103 @@ header {
     top: 0;
 }
 #main-img {
-    height: 800px;
-    width: 100%;
-    z-index: 0;
+    height: 80%;
     position: absolute;
+    top: 14%;
+    right: 3%;
 }
 .name {
     font-family: 'QuickSand', sans-serif;
-    font-weight: 500;
-    font-size: 100px ;
+    font-weight: 900;
+    font-size: 90px;
     position: absolute;
-    left: 60%;
-    top: 49%;
-    z-index: 2;
+    left: 8%;
+    top: 20%;
+    color: black;
+}
+.name-text {
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    position: absolute;
+    left: 15%;
+    top: 52%;
+}
+.shop-now {
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    padding: 10px 45px;
+    position: absolute;
+    left: 8%;
+    top: 64%;
+    border-radius: 20px;
+    background-color: #6091ab;
     color: white;
+    border: none;
+    box-shadow: 14px 19px 21px -2px rgba(142,127,127,0.29);
+    transition: transform 0.2s ease;
 }
-.black-back {
-    height: 800px;
-    background-color: #000;
-    opacity: 0.4;
-    z-index: 1;
+.shop-now:hover {
+    transform: scale(1.1);
+    color: #6091ab;
+    border: 3px solid #6091ab;
+    background-color: white;
+}
+.message {
+    font-family: 'QuickSand', sans-serif;
+    font-weight: 200;
+    font-size: 23px;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 14px 19px 21px -2px rgba(142,127,127,0.29);
 }
-#drop-down-icon {
+.first-circle {
     position: absolute;
-    z-index: 5;
-    left: 50%;
-    top: 90%;
-    height: 50px;
+    top: 34%;
+    right: 13%;
+    border-radius: 50%;
+    border: 8px solid rgba(255,255,255,0.9);
+    height: 30px;
+    width: 30px;
+    background-color: lightgray;
 }
-
+.first-message {
+    top: 18%;
+    right: 2%;
+    padding: 10px 20px;
+}
+.second-circle {
+    position: absolute;
+    top: 44%;
+    right: 33%;
+    border-radius: 50%;
+    border: 8px solid rgba(255,255,255,0.9);
+    height: 30px;
+    width: 30px;
+    background-color: lightgray;
+}
+.second-message {
+    top: 38%;
+    right: 36%;
+    padding: 10px 20px;
+}
+.third-circle {
+    position: absolute;
+    top: 68%;
+    right: 13%;
+    border-radius: 50%;
+    border: 8px solid rgba(255,255,255,0.9);
+    height: 30px;
+    width: 30px;
+    background-color: lightgray;
+}
+.third-message {
+    top: 74%;
+    right: 1%;
+    padding: 10px 20px;
+}
 /* second container */
 .second-container {
     padding-top: 80px;
